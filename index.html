@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Chandra-Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sachin's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="firstSectionLeft">
+                Hi! My name is <span class="purple">Sachin</span>
+                <div>I am
+                </div>
+                <span id="element"></span>               
+            </div>
+            </div>
+            <div class="firstSectionRight">
+                <img src="AVATAAR.png" alt="" style="width: 100%; margin:5px 0px;">
+            </div>
+        </section>
+        <section class="secondSection">
+            <hr style="border:0px;height:0.4px;background-color:rgb(154, 193, 227);margin:40px -10px">
+            <div class="gray-text">What have I learned so far</div>
+            <h1>
+                My Skills
+            </h1>
+            <div class="box">
+                <div class="secondSectionRight"><img src="skills.png" alt="" style="width: 60%;margin:40px;"></div>
+                <div class="secondSectionleft">
+                    <div class="secondSectionVertical"><img src="html.webp" alt="" style="width: 60px;margin:40px auto 30px 30px;">HTML         <img src="flask.png" alt="" style="width: 60px;margin:40px auto 30px 80px;">Flask</div>
+                    <div class="secondSectionVertical"><img src="5453030.webp" alt="" style="width: 60px;margin:40px auto 30px 30px;">CSS       <img src="java.jpg" alt="" style="width: 60px;margin:40px auto 30px 80px;">Java</div>
+                    <div class="secondSectionVertical"><img src="c.png" alt="" style="width: 60px;margin:40px auto 30px 30px;">C                <img src="aiml.webp" alt="" style="width: 60px;margin:40px auto 30px 90px;">AI and ML</div>
+                    <div class="secondSectionVertical"><img src="c++.webp" alt="" style="width: 60px;margin:40px auto 30px 30px;">C++           <img src="python.webp" alt="" style="width: 60px;margin:40px auto 30px 80px;">Python</div> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['An aspiring Software Engineer', '&amp; ML enthusiast'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
