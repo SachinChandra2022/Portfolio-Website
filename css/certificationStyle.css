@@ -13,9 +13,6 @@ header {
   h1 {
     padding: 50px 0;
   }
-  p{
-    margin:0 auto 50px;
-  }
   nav {
     display: flex;
     justify-content: space-around;
