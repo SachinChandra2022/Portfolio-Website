@@ -76,7 +76,7 @@ nav ul li a:hover {
 h1{
     margin:30px;
 }
-.secondSection .box{
+.secondSection .skills{
     height: 2px;
     background-color: rgb(170, 205, 236);
 }
@@ -114,4 +114,38 @@ h1{
 
 #element {
     color: rgb(152, 84, 216);
+}
+
+footer{
+    margin: 150px 0px 0px;
+    color: white;
+    display: flex;
+    height: 25vh;
+    background-color: rgb(70, 137, 196);
+}
+.footerFirstRight{
+    margin: 20px 150px;
+}
+.footer-text{
+    font-size: 1.15rem;
+    width: 300px;
+    margin: 0px 150px;
+}
+.footerFirstLeft{
+    margin: 20px 150px;
+}
+.gmail{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    text-align:center;
+}
+.linkedin{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    text-align:center;
+}
+.github{
+    margin-top: 5px;
+    font-size: 0.8rem;
+    text-align: center;
 }
