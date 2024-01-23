@@ -149,3 +149,152 @@ footer{
     font-size: 0.8rem;
     text-align: center;
 }
+@media (max-width:429.99px){
+    #contact{
+        display: none;
+    }
+    #myavataar{
+        margin-top: 75px;
+    }
+    #home{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .firstSection{
+        height: 40vh;
+        margin-top: 75px;
+    }
+    .navbar{
+        font-size: 0.8rem;
+    }
+    .firstSectionLeft {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    #skills{
+        visibility: hidden;
+        display: none;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .footerFirstLeft {
+        margin: 70px 25vw;
+        font-size: 2rem;
+    }
+    .footerFirstRight{
+        display: none;
+    }
+    .footer-text{
+        font-size: 16px;
+        margin: auto;
+    }
+}
+@media (max-width:582.99px) and (min-width:430px) {
+    #myavataar{
+        margin-top: 75px;
+    }
+    #home{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .firstSection{
+        height: 40vh;
+        margin-top: 75px;
+    }
+    .navbar{
+        font-size: 0.8rem;
+    }
+    .firstSectionLeft {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    #skills{
+        visibility: hidden;
+        display: none;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .footerFirstLeft{
+        margin:70px 20px;
+        font-size: 1.2rem;
+    }
+    .footerFirstRight{
+        width: 400px;
+        font-size: 10px;
+        margin: 70px auto;
+        margin-right: 30px;
+    }
+    .footer-text{
+        font-size: 16px;
+        margin: auto;
+    }
+}
+@media (max-width:839px)and (min-width:583px) {
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 20px;
+        height: 51vh;
+    }
+    #myavataar{
+        margin-top: 60px;
+    }
+    .navbar{
+        font-size: 0.8rem;
+    }
+    .firstSectionLeft {
+        font-size: 28px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    #skills{
+        visibility: hidden;
+        display: none;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .footerFirstLeft{
+        margin:70px 20px;
+        font-size: 1.2rem;
+    }
+    .footerFirstRight{
+        width: 400px;
+        font-size: 10px;
+        margin: 70px auto;
+        margin-right: 30px;
+    }
+    .footer-text{
+        font-size: 16px;
+        margin: auto;
+    }
+}
+@media (max-width:1138px) and (min-width:840px) {
+    .right{
+        font-size: 0.8rem;
+    }
+    .firstSection .secondSection{
+        width: 100%;
+    }
+    .firstSectionRight{
+        margin-top: 100px;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .footerFirstLeft{
+        margin:70px 20px;
+        font-size: 1.2rem;
+    }
+    .footerFirstRight{
+        margin: 70px 52px;
+    }
+}
