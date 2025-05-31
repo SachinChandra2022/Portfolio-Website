@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "REDACT",
-    cardImage: "assets/images/project-page/redact.jpg",
+    cardImage: "assets/images/project-page/REDACT.jpg",
     description: "A cahess engine for a popular game dev engine.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
