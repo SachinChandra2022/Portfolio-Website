@@ -6,19 +6,27 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Trading Bot",
+    title: "NIFTRON: AI for Smarter Investments ",
     cardImage: "assets/images/project-page/trading-bot.jpg",
-    description: "A quiz app built using basic react.",
+    description: "A smart reccomender system for stocks.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "https://github.com/SachinChandra2022/nifty-50-trading-bot",
+    Previewlink: "https://niftron-frontend.vercel.app/",
+    Githublink: "",
   },
   {
     title: "REDACT",
     cardImage: "assets/images/project-page/REDACT.jpg",
-    description: "A cahess engine for a popular game dev engine.",
+    description: "Secure Document SaaS",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "AIDRA",
+    cardImage: "assets/images/project-page/mcq.jpg",
+    description: "AI safety chatbot for women",
+    tagimg:"",
+    Previewlink: "https://adira-interface.vercel.app/",
     Githublink: "",
   },
   {
@@ -34,14 +42,6 @@ const projects = [
     cardImage: "assets/images/project-page/exam-hall-management.jpg",
     description: "Exercise tracker built using basic redux.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "MCQ Generator",
-    cardImage: "assets/images/project-page/mcq.jpg",
-    description: "Recipe Ingredient Parser built using JavaScript.",
-    tagimg:"",
     Previewlink: "",
     Githublink: "",
   },
