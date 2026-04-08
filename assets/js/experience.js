@@ -7,13 +7,13 @@ const exp = [
  {
     title: "Intern",
     subtitle: "Autonmis",
-    image: "./assets/images/experience-page/autonmis.webp",
+    image: "assets/images/experience-page/autonmis.webp",
     desp: "Automated ETL pipelines using Python and PostgreSQL, increasing data processing speed by 40%. Developed a scalable K-Means clustering service for customer segmentation and optimized SQL queries for fraud detection.",
   },
   {
     title: "Software Developer Intern",
     subtitle: "VIT Bhopal University",
-    image: "./assets/images/experience-page/vit-bhopal.jpeg",
+    image: "assets/images/experience-page/vit-bhopal.jpeg",
     desp: "Engineered a Python automation tool for exam allocations serving 15,000+ students, eliminating 100% of manual scheduling errors. Optimized legacy workflows using Pandas, reducing data processing time by 50%.",
   },
 ];
