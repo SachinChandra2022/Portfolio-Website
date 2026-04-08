@@ -22,6 +22,14 @@ const projects = [
     Githublink: "https://github.com/SachinChandra2022/goflash",
   },
   {
+    title: "GoFlash",
+    cardImage: "./assets/images/project-page/goflash.png",
+    description: "High-concurrency ticketing engine built with Golang and Kafka, capable of handling 10,000+ requests per second.",
+    tagimg: "./assets/images/project-page/goflash.png",
+    Previewlink: "https://goflash-ecru.vercel.app/",
+    Githublink: "https://github.com/SachinChandra2022/goflash",
+  },
+  {
     title: "RE-DACT",
     cardImage: "./assets/images/project-page/REDACT.jpg",
     description: "Secure Document SaaS that uses AI to automatically detect and redact PII from documents with 98% accuracy.",
