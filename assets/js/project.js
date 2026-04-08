@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "NIFTRON: AI for Smarter Investments",
+    title: "NIFTRON",
     cardImage: "./assets/images/project-page/niftron.png",
     description: "A financial analytics platform using FastAPI and Airflow to automate NIFTY 50 processing and stock ranking.",
     tagimg: "./assets/images/project-page/goflash.png",
@@ -28,14 +28,6 @@ const projects = [
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/blockchain-64-1101344.png",
     Previewlink: "",
     Githublink: "https://github.com/SachinChandra2022/RE-DACT",
-  },
-  {
-    title: "NIFTRON",
-    cardImage: "./assets/images/project-page/niftron.png",
-    description: "A financial analytics platform using FastAPI and Airflow to automate NIFTY 50 processing and stock ranking.",
-    tagimg: "./assets/images/project-page/goflash.png",
-    Previewlink: "https://niftron-frontend.vercel.app/",
-    Githublink: "https://github.com/SachinChandra2022/Niftron-Backend",
   },
   {
     title: "ADIRA",
