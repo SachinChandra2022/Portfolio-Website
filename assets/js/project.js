@@ -14,12 +14,12 @@ const projects = [
     Githublink: "https://github.com/SachinChandra2022/Niftron-Backend",
   },
   {
-    title: "GoFlash",
-    cardImage: "./assets/images/project-page/goflash.png",
-    description: "High-concurrency ticketing engine built with Golang and Kafka, capable of handling 10,000+ requests per second.",
+    title: "NIFTRON: AI for Smarter Investments",
+    cardImage: "./assets/images/project-page/niftron.png",
+    description: "A financial analytics platform using FastAPI and Airflow to automate NIFTY 50 processing and stock ranking.",
     tagimg: "./assets/images/project-page/goflash.png",
-    Previewlink: "https://goflash-ecru.vercel.app/",
-    Githublink: "https://github.com/SachinChandra2022/goflash",
+    Previewlink: "https://niftron-frontend.vercel.app/",
+    Githublink: "https://github.com/SachinChandra2022/Niftron-Backend",
   },
   {
     title: "GoFlash",
