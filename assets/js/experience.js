@@ -57,14 +57,14 @@ const mentor = [
   {
     title: "EY Techathon",
     subtitle: "Semi-Finalist",
-    image: "assets/images/experience-page/EY.png",
+    image: "./assets/images/experience-page/EY.png",
     desp: "Our team made it to the semifinals round with our finance management app 'NidhiPath'.",
     href: "https://uplift.girlscript.tech/",
   },
   {
     title: "Amazon HackOn",
     subtitle: "Participant",
-    image: "assets/images/experience-page/amazon-hackon.png",
+    image: "./assets/images/experience-page/amazon-hackon.png",
     desp: "Our team made it upto the mentorship round.",
     href: "https://ulhacks.com/",
   },
