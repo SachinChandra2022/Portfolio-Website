@@ -4,19 +4,17 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
-  {
-    title: "Data Science and Analysis Intern",
-    cardImage: "assets/images/experience-page/autonmis.webp",
-    place: "Autonmis",
-    time: "(Sep, 2024 - Nov, 2024)",
-    desp: "<li>Automated ETL workflows with Sling, enhancing execution time.</li> <li>Developed predictive modeling solutions, applying k-means clustering, RFM analysis, and customer segmentation to enhance marketing strategies.</li> <li>Engineered synthetic data while retaining its statistical properties.</li><li>Integrated real-time analytics dashboards for decision-making, leveraging cloud storage solutions.</li>",
+ {
+    title: "Intern",
+    subtitle: "Autonmis",
+    image: "assets/images/experience-page/autonmis.png",
+    desp: "Automated ETL pipelines using Python and PostgreSQL, increasing data processing speed by 40%. Developed a scalable K-Means clustering service for customer segmentation and optimized SQL queries for fraud detection.",
   },
   {
-    title: "System Developer Intern",
-    cardImage: "assets/images/experience-page/vit-bhopal.jpeg",
-    place: "VIT Bhopal University",
-    time: "(Jan, 2024 - Mar, 2024)",
-    desp: "<li>Streamlined exam hall allocation, reducing manual effort.</li><li>Designed seating algorithms, ensuring error-free allocation for 10,000+ students monthly.</li><li>Implemented a web-based system for real-time updates, enhancing user experience.</li><li>Managed stakeholder communications, collaborating with faculty to streamline scheduling and execution.</li>",
+    title: "Software Developer Intern",
+    subtitle: "VIT Bhopal University",
+    image: "assets/images/experience-page/vit.png",
+    desp: "Engineered a Python automation tool for exam allocations serving 15,000+ students, eliminating 100% of manual scheduling errors. Optimized legacy workflows using Pandas, reducing data processing time by 50%.",
   },
 ];
 
