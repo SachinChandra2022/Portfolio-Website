@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "NIFTRON: AI for Smarter Investments",
-    cardImage: "assets/images/project-page/trading-bot.jpg",
+    cardImage: "./assets/images/project-page/niftron.png",
     description: "A financial analytics platform using FastAPI and Airflow to automate NIFTY 50 processing and stock ranking.",
     tagimg: "./assets/images/project-page/niftron.png",
     Previewlink: "https://niftron-frontend.vercel.app/",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "GoFlash",
-    cardImage: "assets/images/project-page/goflash.jpg",
+    cardImage: "./assets/images/project-page/goflash.png",
     description: "High-concurrency ticketing engine built with Golang and Kafka, capable of handling 10,000+ requests per second.",
     tagimg: "./assets/images/project-page/goflash.png",
     Previewlink: "https://goflash-ecru.vercel.app/",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "RE-DACT",
-    cardImage: "assets/images/project-page/REDACT.jpg",
+    cardImage: "./assets/images/project-page/REDACT.jpg",
     description: "Secure Document SaaS that uses AI to automatically detect and redact PII from documents with 98% accuracy.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/blockchain-64-1101344.png",
     Previewlink: "",
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: "ADIRA",
-    cardImage: "assets/images/project-page/mcq.jpg",
+    cardImage: "./assets/images/project-page/adira.png",
     description: "AI safety chatbot powered by Gemini LLM and RAG for women's security and query resolution.",
     tagimg: "./assets/images/project-page/adira.png",
     Previewlink: "https://adira-interface.vercel.app/",
