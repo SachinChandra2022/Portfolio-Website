@@ -30,7 +30,7 @@ const projects = [
     Githublink: "https://github.com/SachinChandra2022/RE-DACT",
   },
   {
-    title: "NIFTRON: AI for Smarter Investments",
+    title: "NIFTRON",
     cardImage: "./assets/images/project-page/niftron.png",
     description: "A financial analytics platform using FastAPI and Airflow to automate NIFTY 50 processing and stock ranking.",
     tagimg: "./assets/images/project-page/goflash.png",
